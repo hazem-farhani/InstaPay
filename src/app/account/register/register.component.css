@@ -1,0 +1,85 @@
+a:hover{
+  text-decoration: none;
+}
+
+h3 {
+  font-family: "Lucida Fax";
+  text-align: center;
+}
+
+p {
+  font-family: Manrope;
+  text-align: center;
+}
+
+label {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+input {
+  border: solid 1px #8e8d8a;
+}
+
+select {
+  color: #000000;
+  border: solid 1px #8e8d8a;
+}
+
+option {
+  color: #000000;
+}
+
+button {
+  border: solid 1px #8e8d8a;
+  border-radius: 6px;
+  padding: 7px 45px;
+  margin: 12px;
+  display: inline-block;
+  font-family: Manrope;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+button:focus {
+  outline: 0;
+}
+
+
+
+/******* CLASSES *******/
+.main-block {
+  background-image: linear-gradient(to bottom, #eae7dc, #7a7976);
+  padding-right: 20rem;
+  padding-left: 20rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.logo-block {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.reg-block {
+  padding: 2rem 4rem;
+  background-color: #eae7dc;;
+}
+
+
+
+
+/******* ID *******/
+#div-btn {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+#save {
+  background-color: #d2bc9e;
+}
+
+
+#reset {
+  background-color: #e98074;
+}

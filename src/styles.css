@@ -1,0 +1,46 @@
+.logo {
+  font-family: Facon;
+  color: #e85a4f !important;
+  font-size: 1.9rem;
+  letter-spacing: -1px;
+}
+
+.w-border {
+  border: white 1px solid;
+}
+
+.b-border {
+  border: black 1px solid;
+}
+
+
+
+
+/******** Fonts *******/
+@font-face {
+  font-family: Manrope;
+  src: url('assets/fonts/manrope-regular.otf');
+}
+
+@font-face {
+  font-family: Facon;
+  src: url('assets/fonts/Facon.ttf');
+}
+
+
+
+
+/*******  Colors  ********/
+.colors{
+  color: #eae7dc;
+  color: #d8c3a5;
+  color: #8e8d8a;
+  color: #e98074;
+  color: #e85a4f;
+
+  color: #caebf2;
+  color: #813772;
+  color: #a239ca;
+  color: #76323f;
+  color: #c09f80;
+}

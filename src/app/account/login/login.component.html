@@ -1,0 +1,60 @@
+<div class="container-fluid">
+  <div class="frame-holder">
+  <!-- Influencer -->
+    <div class="row" *ngIf="logSwitch==1">
+    <!--  side  -->
+      <div class="col-5 side" id="inf-side">
+        <div class="b-logo">
+          <a routerLink="/"><span class="logo">InstaPay</span></a>
+        </div>
+        <h3>Welcome back!</h3>
+        <p class="p1">Sign in as an influencer.</p>
+        <p class="p2">No account yet? <a routerLink="/register" style="text-decoration: underline;">Register Now</a></p>
+        <button class="btn-switch" id="inf-swt" (click)="switch(2)">I'm a brand</button>
+      </div>
+    <!--  main  -->
+      <div class="col-7 main">
+        <h4>Influencer</h4>
+        <div>
+          <img src="../../../assets/icons/inf1-icon.png" alt="inf">
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Email" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="password" placeholder="Password" class="form-control">
+        </div>
+        <button class="btn-signin">Sign In</button>
+      </div>
+    </div>
+
+
+    <!-- Brand -->
+    <div class="row" *ngIf="logSwitch==2">
+      <!--  side  -->
+      <div class="col-5 side" id="bran-side">
+        <div class="b-logo">
+          <a routerLink="/"><span class="logo" id="logo-bran">InstaPay</span></a>
+        </div>
+        <h3>Welcome back!</h3>
+        <p class="p1">Sign in as a brand.</p>
+        <p class="p2">No account yet? <a routerLink="#" style="color: white; text-decoration: underline">Register Now</a></p>
+        <button class="btn-switch" id="bran-swt" (click)="switch(1)">I'm an influencer</button>
+      </div>
+      <!--  main  -->
+      <div class="col-7 main">
+        <h4>Brand</h4>
+        <div>
+          <img src="../../../assets/icons/bran1-icon.png" alt="inf">
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Email" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="password" placeholder="Password" class="form-control">
+        </div>
+        <button class="btn-signin">Sign In</button>
+      </div>
+    </div>
+  </div>
+</div>

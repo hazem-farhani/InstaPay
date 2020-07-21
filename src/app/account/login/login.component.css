@@ -1,0 +1,114 @@
+h3 {
+  font-size: 2.5rem;
+  font-family: "Lucida Fax";
+  margin-top: 5rem;
+  margin-bottom: 1.1rem;
+}
+
+h4 {
+  margin: 3rem 1.6rem 1rem 1.6rem;
+  font-size: 1.5rem;
+  font-family: "Lucida Fax";
+}
+
+input {
+  width: 55%;
+  margin: auto;
+}
+
+button:focus {
+  outline: 0;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+img {
+  width: 55px;
+  height: 55px;
+  margin: 10px 20px 40px 20px;
+}
+
+/******* CLASSES *******/
+.container-fluid {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  background-color: #d8c3a5;
+  padding: 50px;
+}
+
+.frame-holder {
+  padding: 1.8rem;
+}
+
+.b-logo {
+  margin: 1.2rem;
+}
+
+.side {
+  padding: 25px;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  text-align: center;
+}
+
+.main {
+  padding: 25px;
+  background-color: #ffffff;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  text-align: center;
+}
+
+.p1 {
+  margin-bottom: 4rem;
+  font-family: Manrope;
+  font-size: 1.3rem;
+}
+
+
+.btn-switch {
+  margin-top: .3rem;
+  margin-bottom: 2rem;
+  padding: .7rem 1.4rem .7rem 1.4rem;
+  font-size: 1.1rem;
+  font-family: Manrope;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.btn-signin {
+  margin-top: .7rem;
+  margin-bottom: 2rem;
+  padding: .7rem 1.4rem .7rem 1.4rem;
+  font-size: 1.1rem;
+  font-family: Manrope;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+
+/******* ID *******/
+#inf-side {
+  background-color: #caebf2;
+}
+#logo-bran {
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+}
+
+#bran-side {
+  background-color: #e98074;
+}
+
+#inf-swt {
+  background-color: #e98074;
+}
+
+#bran-swt {
+  background-color: #caebf2;
+}
